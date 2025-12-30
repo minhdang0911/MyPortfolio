@@ -1,0 +1,73 @@
+export const t = {
+  vi: {
+    nav: {
+      projects: "Dự án",
+      about: "Giới thiệu",
+      contact: "Liên hệ",
+      resume: "CV",
+    },
+    hero: {
+      hi: "Xin chào, mình là Minh Đăng Trần.",
+      scrollDown: "Kéo xuống",
+      seq: [
+        "Mình là Front-End Developer.",
+        "Tốt nghiệp HUTECH.",
+        "Một người giải quyết vấn đề.",
+        "Thích sáng tạo & tối ưu.",
+        "Ơ…",
+        "Ơ… ngầu không?",
+        "Ok...",
+        "Ok... mình hết ý tưởng rồi...",
+        "Uhh...",
+        "Uhh... kéo xuống xem dự án nha...",
+        "Dự án của mình xịn lắm, vô xem đi!",
+        "Bạn vẫn còn ở đây à?",
+        "Ok vui đó, nhưng mình restart vòng lặp nha...",
+        "Hẹn gặp lại! :)",
+      ],
+    },
+    about: {
+      title: "Giới thiệu",
+      p1: "Xin chào! Mình tên là Minh Đăng Trần. Mình sinh ra và lớn lên tại TP.HCM, Việt Nam. Mình tốt nghiệp Đại học Công nghệ TP.HCM (HUTECH). Qua nhiều vị trí, mình tích lũy được kinh nghiệm giúp mình cải thiện tinh thần làm việc, giao tiếp và khả năng thích nghi.",
+      p2: "Mình đến với công nghệ từ niềm yêu thích giải quyết vấn đề. Ở HUTECH, mình học các kiến thức liên quan tới phát triển web và làm các dự án web thực tế.",
+      p3: "Mình thích làm việc nhóm để cùng đạt mục tiêu chung. Mình muốn tiếp tục tham gia các dự án thú vị trong tương lai, đặc biệt là web development.",
+      tagline: "Mình tự tin với các công nghệ sau:",
+    },
+  },
+
+  en: {
+    nav: {
+      projects: "Projects",
+      about: "About",
+      contact: "Contact",
+      resume: "Resume",
+    },
+    hero: {
+      hi: "Hi, I'm Minh Dang Tran.",
+      scrollDown: "Scroll down",
+      seq: [
+        "A Front-End Developer.",
+        "A HUTECH graduate.",
+        "A problem solver.",
+        "An innovative thinker.",
+        "A....",
+        "A.... cool guy?",
+        "Ok...",
+        "Ok... I'm running out of ideas...",
+        "Uhh...",
+        "Uhh... you can scroll down to see my projects now...",
+        "Seriously, my projects are really cool, go check them out!",
+        "You're uh... still here?",
+        "Ok, this has been fun, but I'm gonna restart the loop now...",
+        "See ya! :)",
+      ],
+    },
+    about: {
+      title: "About Me",
+      p1: "Hello! My name is Minh Dang Tran. I am from Ho Chi Minh City, Vietnam, and I graduated from HUTECH University. Through various roles, I gained valuable experience that strengthened my work ethic, communication skills, and adaptability.",
+      p2: "My journey into tech started with a passion for problem-solving, which led me to study web development and build real projects during university.",
+      p3: "Working collaboratively within a team towards a shared objective is incredibly rewarding for me. I'm excited to explore more projects in the future, especially in web development.",
+      tagline: "I have become confident using the following technologies:",
+    },
+  },
+};
