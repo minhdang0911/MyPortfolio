@@ -37,7 +37,7 @@ function About() {
                     <TechName>{stack.name}</TechName>
                   </Tech>
                 </ScrollAnimation>
-              ))}
+              ))} 
             </Technologies>
           </div>
         </div>

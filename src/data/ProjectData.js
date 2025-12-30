@@ -1,6 +1,6 @@
 export const ProjectList = [
   {
-    img: "/project1.png",
+    img: "/project1.PNG",
     title: {
       vi: "E-commerce Website",
       en: "E-commerce Website",
