@@ -7,12 +7,12 @@ export const t = {
       resume: "CV",
     },
     hero: {
-      hi: "Xin chào, mình là Minh Đăng Trần.",
+      hi: "Xin chào, mình là Trần Minh Đăng.",
       scrollDown: "Kéo xuống",
       seq: [
         "Mình là Front-End Developer.",
-        "Tốt nghiệp HUTECH.",
-        "Một người giải quyết vấn đề.",
+        "Tốt nghiệp đại học HUTECH.",
+        "Một người thích giải quyết vấn đề.",
         "Thích sáng tạo & tối ưu.",
         "Ơ…",
         "Ơ… ngầu không?",
