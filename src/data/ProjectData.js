@@ -27,18 +27,33 @@ export const ProjectList = [
       en: "IKY GPS – Vehicle Tracking System",
     },
     description: {
-      vi: "Hệ thống GPS giám sát hành trình realtime trên bản đồ, hiển thị trạng thái xe, mở khóa khẩn cấp, báo cáo và quản lý đội xe.",
-      en: "GPS vehicle tracking system with real-time journey monitoring on map, vehicle status display, emergency unlock feature, reporting and fleet management.",
+      vi: `
+Hệ thống giám sát hành trình GPS realtime cho đội xe, 
+hiển thị vị trí, trạng thái xe và pin theo thời gian thực thông qua MQTT.
+Hỗ trợ xem lại lộ trình theo khung giờ, playback hành trình trên bản đồ,
+bật/tắt cảnh báo từ xa, báo cáo chuyên sâu (phiên chạy, phiên sạc, chuyến đi, bảo trì),
+quản lý thiết bị, phân quyền người dùng và đa ngôn ngữ.
+`,
+
+      en: `
+A real-time GPS vehicle tracking system for fleet management.
+Features include live location tracking via MQTT, vehicle and battery status monitoring,
+route playback with polyline and markers, remote alert control,
+advanced reporting (usage sessions, charging sessions, trips, maintenance history),
+device management, role-based access control and multi-language support.
+`,
     },
     tech_stack: [
       "Next.js",
-      "MQTT",
-      "Ant Design",
+      "Node.js / Express",
       "MongoDB",
-      "ExpressJS",
-      "Leaflet",
+      "MQTT (Realtime)",
+      "Leaflet Map",
+      "Ant Design",
       "JWT Authentication",
+      "Role-based Access Control",
     ],
+
     // github_url: "https://github.com/....",
     // demo_url: "https://....",
   },
@@ -52,7 +67,13 @@ export const ProjectList = [
       vi: "Website giới thiệu và quảng bá sản phẩm cho công ty khuôn nhựa, kèm hệ thống Admin CMS quản lý sản phẩm, danh mục, banner và nội dung.",
       en: "Corporate website for a plastic mold manufacturing company with product showcase and an admin CMS to manage products, categories, banners and content.",
     },
-    tech_stack: ["Next.js", "MongoDB", "ExpressJS", "Ant Design", "JWT Authentication"],
+    tech_stack: [
+      "Next.js",
+      "MongoDB",
+      "ExpressJS",
+      "Ant Design",
+      "JWT Authentication",
+    ],
     // github_url: "https://github.com/....",
     demo_url: "https://khuonmaukienan.com",
   },
