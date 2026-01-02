@@ -1,45 +1,32 @@
-**Portfolio**
-Live Preview - [Click Here](https://salesp07.github.io/)
+Personal Portfolio Website
 
-<br/>
-<div align="center">
-  <img alt="Demo" src="public/mockup.png" />
-</div>
-<br/>
-<br/>
+Live Preview:
+https://portfolio.tranminhdang.cloud
 
-# 🛠 Installation and Setup Instructions
+About This Project
+This is a personal portfolio website built to showcase skills, experience, and real-world projects as a Frontend Developer.
 
-1. Fork and clone this repository. You will need NodeJs and Git installed on your machine..
+Tech Stack
+- React.js
+- Next.js
+- JavaScript (ES6+)
+- Ant Design
+- CSS / TailwindCSS
+- JWT Authentication
+- RESTful APIs
 
-2. Installation: `npm install --legacy-peer-deps`
+Installation & Setup
+1. Clone the repository
+2. npm install --legacy-peer-deps
+3. npm start
+4. Open http://localhost:3000
 
-3. In the project directory, you can run: `npm start`\
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Customization
+Edit project data inside /src/assets/data and update UI components as needed.
 
-# Usage Instructions
+Deployment
+1. Rename repo to (https://github.com/minhdang0911/MyPortfolio).github.io
+2. Set homepage in package.json
+3. Run npm run deploy
 
-1. Open the project folder and Navigate to `/src/assets/data` and add your projects details.
-
-2. You will find all the components used and you can edit your information accordingly.
-
-# Deploy with Github Pages
-
-1. Name your fork `<your-github-username>.github.io`
-2. Edit the `homepage` property on your `package.json` file
-
-      `"homepage": "http://<your-github-username>.github.io/"`
-
-
-3. Deploy the app
-
-   `npm run deploy`
-
-## Contribute
-
-Pull Requests are welcome :)
-
-## Show your support
-
-Give a ⭐ if you like this website!
+© 2026 Tran Minh Dang
