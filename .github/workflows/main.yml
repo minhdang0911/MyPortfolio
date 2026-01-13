@@ -39,4 +39,4 @@ jobs:
             npm run build
 
             # Reload app
-            pm2 reload MyPortfolio
+            pm2 reload portfolio
