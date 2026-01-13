@@ -28,19 +28,33 @@ export const ProjectList = [
     },
     description: {
       vi: `
-Hệ thống giám sát hành trình GPS realtime cho đội xe, 
-hiển thị vị trí, trạng thái xe và pin theo thời gian thực thông qua MQTT.
-Hỗ trợ xem lại lộ trình theo khung giờ, playback hành trình trên bản đồ,
-bật/tắt cảnh báo từ xa, báo cáo chuyên sâu (phiên chạy, phiên sạc, chuyến đi, bảo trì),
-quản lý thiết bị, phân quyền người dùng và đa ngôn ngữ.
-`,
+IKY GPS là hệ thống giám sát hành trình GPS realtime dành cho quản lý đội xe và thiết bị di động.
+Hệ thống cập nhật vị trí, trạng thái xe, pin và tín hiệu theo thời gian thực thông qua MQTT,
+hiển thị trực quan trên bản đồ với khả năng zoom, theo dõi và tương tác.
 
+Hỗ trợ xem lại lịch sử lộ trình theo nhiều khung thời gian (hôm nay, tuần, tháng, quý),
+playback hành trình chi tiết với phân loại trạng thái chạy xe, dừng xe, đỗ xe.
+Tích hợp dashboard thống kê và biểu đồ giúp phân tích hiệu suất vận hành.
+
+Cung cấp hệ thống báo cáo chuyên sâu như: chuyến đi, phiên chạy, phiên sạc, bảo trì thiết bị,
+so sánh dữ liệu theo thời gian, tuỳ chỉnh cột hiển thị, xuất báo cáo (Excel/CSV).
+Ngoài ra hệ thống còn hỗ trợ quản lý thiết bị, phân quyền người dùng, đa ngôn ngữ
+và hướng dẫn sử dụng trực tiếp trên giao diện.
+`,
       en: `
-A real-time GPS vehicle tracking system for fleet management.
-Features include live location tracking via MQTT, vehicle and battery status monitoring,
-route playback with polyline and markers, remote alert control,
-advanced reporting (usage sessions, charging sessions, trips, maintenance history),
-device management, role-based access control and multi-language support.
+IKY GPS is a real-time vehicle and device tracking system designed for fleet management.
+The system continuously updates location, vehicle status, battery level and signal data
+via MQTT, providing an interactive and intuitive map-based interface.
+
+It supports route history playback with flexible time ranges (today, week, month, quarter),
+detailed journey visualization with driving, stopping and parking states,
+along with dashboards and charts for operational analysis.
+
+Advanced reporting features include trip reports, usage sessions, charging sessions
+and maintenance history, with data comparison, customizable table columns
+and export options (Excel/CSV).
+The platform also offers device management, role-based access control,
+multi-language support and built-in user guidance for better usability.
 `,
     },
     tech_stack: [
